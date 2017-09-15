@@ -1,0 +1,21 @@
+//Variaveis
+$font-primary: #ffffff;
+
+// font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+//Componets
+@import "components/menu";
+@import "components/header";
+
+
+
+*{
+	font-family: 'Open Sans', sans-serif;
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style:none;
+	color:$font-primary;
+
+}
+

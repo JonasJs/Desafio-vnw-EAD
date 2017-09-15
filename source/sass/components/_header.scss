@@ -1,0 +1,21 @@
+.container{
+	width:100%;
+	display: flex;
+	color:$font-primary;
+	background:#2e2b60;
+	opacity:0.9;
+	position: relative;
+	height:590px;
+	&::after{  
+		content:"";
+		background-image: url("../images/bg.jpg");
+		background-size: 100%;
+		position:absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		opacity:0.1;
+		z-index: -1;
+	}
+}
