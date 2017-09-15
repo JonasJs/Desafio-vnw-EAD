@@ -2,7 +2,7 @@
 $font-primary: #ffffff;
 
 // font
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
 //Componets
 @import "components/menu";
 @import "components/header";
@@ -16,6 +16,16 @@ $font-primary: #ffffff;
 	text-decoration:none;
 	list-style:none;
 	color:$font-primary;
+	letter-spacing: 1.6px;
 
 }
+// Class Globais
 
+//Conteudo
+.content{
+	height: 450px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}

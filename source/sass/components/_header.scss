@@ -1,6 +1,5 @@
 .container{
 	width:100%;
-	display: flex;
 	color:$font-primary;
 	background:#2e2b60;
 	opacity:0.9;
@@ -18,4 +17,13 @@
 		opacity:0.1;
 		z-index: -1;
 	}
+
+	//Content
+	.content{
+		p{
+			font-weight: 300;
+			margin-top: 10px;
+		}
+	}
 }
+
