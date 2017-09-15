@@ -1,14 +1,15 @@
 .container{
 	width:100%;
 	background:$bg-primary;
-	background:#2e2b60;
 	opacity:0.9;
 	position: relative;
 	height:590px;
 	&::after{  
 		content:"";
+		width: 100%;
 		background-image: url("../images/bg.jpg");
 		background-size: 100%;
+		background-repeat:no-repeat;
 		position:absolute;
 		top: 0;
 		left: 0;
@@ -16,6 +17,12 @@
 		right: 0;
 		opacity:0.1;
 		z-index: -1;
+		@media #{$small}{
+			background-position:-400px 0;
+		}
+		@media#{$tablet,$mobile,$small}{
+			background-size: auto;
+		}
 	}
 
 	//Content

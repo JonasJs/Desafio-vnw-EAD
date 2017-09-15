@@ -5,8 +5,15 @@
 	ul{
 		display: flex;
 		padding: 65px 76px 0 0;
+		@media #{$small}{
+			display: block;
+			padding: 20px 0 0;
+		}
 		li{
 			margin-right: 45px;
+			@media #{$small}{
+				margin:20px 45px;
+			}
 			a{
 				&:hover{
 					&:after{
@@ -19,7 +26,7 @@
 					height: 2px;
 					background: #fff;
 					display: block;
-					margin: 2px auto;
+					margin: 4px auto;
 					transition: all 0.2s linear;
 				}
 			}
