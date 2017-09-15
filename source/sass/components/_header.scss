@@ -1,7 +1,7 @@
 .container{
 	width:100%;
 	color:$font-primary;
-	background:#2e2b60;
+	background:$bg-primary;
 	opacity:0.9;
 	position: relative;
 	height:590px;
@@ -20,6 +20,9 @@
 
 	//Content
 	.content{
+		h1{
+			letter-spacing: 1.6px;
+		}
 		p{
 			font-weight: 300;
 			margin-top: 10px;

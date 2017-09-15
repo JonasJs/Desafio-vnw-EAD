@@ -1,0 +1,13 @@
+#sobre{
+	background: $bg-primary;
+	
+	.content{
+		height: 590px;
+		p, img{
+			width: 680px;
+		}
+		img{
+			margin-top: 20px;
+		}
+	}
+}

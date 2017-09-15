@@ -1,11 +1,13 @@
 //Variaveis
 $font-primary: #ffffff;
+$bg-primary:#3b3784;
 
 // font
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700');
 //Componets
 @import "components/menu";
 @import "components/header";
+@import "components/content";
 
 
 
@@ -16,8 +18,6 @@ $font-primary: #ffffff;
 	text-decoration:none;
 	list-style:none;
 	color:$font-primary;
-	letter-spacing: 1.6px;
-
 }
 // Class Globais
 
