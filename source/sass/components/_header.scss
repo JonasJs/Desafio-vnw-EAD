@@ -27,6 +27,9 @@
 
 	//Content
 	.content{
+		@media #{$small}{
+			height:320px;
+		}
 		h1{
 			letter-spacing: 1.6px;
 		}
