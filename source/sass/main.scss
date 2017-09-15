@@ -1,3 +1,14 @@
+// @media #{$variável_breakpoint} {}
+
+
+$small: "only screen and (max-width : 320px)";
+$mobile: "only screen and (max-width : 600px)";
+$mobile-extra: "only screen and (min-width: 601px) and (max-width: 668px)";
+$tablet: "only screen and (min-width: 601px) and (max-width : 1024px)";
+$tablet-extra: "only screen and (min-width: 768px) and (max-width: 1023px)";
+$desktop: "only screen and (min-width: 1025px)";
+$hd: "only screen and (min-width : 1500px)";
+
 //Variaveis
 $font-primary: #ffffff;
 $bg-primary:#3b3784;

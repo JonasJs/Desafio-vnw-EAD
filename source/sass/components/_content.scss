@@ -5,6 +5,13 @@
 		height: 590px;
 		p, img{
 			width: 680px;
+			//Responsivo
+			@media #{$tablet}{
+				width: 600px;
+			}
+			@media #{$small, $mobile}{
+				width: 80%;
+			}
 		}
 		img{
 			margin-top: 20px;
